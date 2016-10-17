@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Bab1"
+             x:Class="Bab1.MainPage" Title="Hello Xamarin">
+
+  <StackLayout>
+    <Label x:Name="lblNama" />
+    <Entry x:Name="entryNama" />
+    <Button x:Name="btnSubmit" Text="Submit" />
+    <Button x:Name="btnDisplay" Text="Show Display" Clicked="BtnDisplay_Clicked" />
+    <Label Text="Masukan Bilangan 1 :" />
+    <Entry x:Name="entryBil1" Keyboard="Numeric" />
+    <Label Text="Masukan Bilangan 2 :" />
+    <Entry x:Name="entryBil2" Keyboard="Numeric" />
+    <StackLayout Orientation="Horizontal">
+      <Button x:Name="btnTambah" Text="Tambah" />
+      <Button x:Name="btnKurang" Text="Kurang" />
+      <Button x:Name="btnKali" Text="Kali" />
+    </StackLayout>
+    <Image Source="actual.png" Aspect="AspectFit"
+           HorizontalOptions="Center" VerticalOptions="Center" />
+  </StackLayout>
+
+</ContentPage>
