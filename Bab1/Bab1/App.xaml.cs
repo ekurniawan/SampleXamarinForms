@@ -12,7 +12,9 @@ namespace Bab1
         public App()
         {
             InitializeComponent();
-            MainPage = new Bab1.MainPage();
+            //MainPage = new Bab1.MainPage();
+
+            MainPage = new SampleGridPage();
         }
 
         protected override void OnStart()

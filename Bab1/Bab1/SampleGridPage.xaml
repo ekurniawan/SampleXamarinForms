@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bab1.SampleGridPage">
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="200" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="40" />
+      <RowDefinition Height="40" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+
+    <Label Text="First Name :" FontSize="Medium" HorizontalOptions="End" Grid.Column="0" Grid.Row="0" />
+    <Entry Placeholder="First Name" Grid.Column="1" Grid.Row="0" />
+    <Label Text="Last Name :" FontSize="Medium" HorizontalOptions="End" Grid.Column="0" Grid.Row="1" />
+    <Entry Placeholder="Last Name" Grid.Column="1" Grid.Row="1" /> 
+   
+  </Grid>
+</ContentPage>
