@@ -14,7 +14,7 @@ namespace Bab1
             InitializeComponent();
             //MainPage = new Bab1.MainPage();
 
-            MainPage = new CustomButtonList();
+            MainPage = new NavigationPage(new NavigationPage1());
         }
 
         protected override void OnStart()
