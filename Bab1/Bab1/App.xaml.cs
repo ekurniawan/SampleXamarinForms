@@ -14,7 +14,7 @@ namespace Bab1
             InitializeComponent();
             //MainPage = new Bab1.MainPage();
 
-            MainPage = new ImageCellListBinding();
+            MainPage = new CustomListView();
         }
 
         protected override void OnStart()
