@@ -1,15 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Bab1.NavigationPage1" Title="Halaman 1">
+             x:Class="Bab1.MenuPage" Title="Halaman Menu">
   <ContentPage.ToolbarItems>
-    <ToolbarItem Text="Halaman 1" Order="Secondary"
+    <ToolbarItem Text="Halaman 1" Order="Secondary" 
                  Clicked="Navigate" CommandParameter="NavigationPage1" />
-    <ToolbarItem Text="Halaman 2" Order="Secondary"
+    <ToolbarItem Text="Halaman 2" Order="Secondary" 
                  Clicked="Navigate" CommandParameter="NavigationPage2" />
   </ContentPage.ToolbarItems>
-  <StackLayout>
-    <Label Text="Halaman 1" FontSize="Large" />
-    <Button Text="Ke Halaman 2" x:Name="btnHal2" />
-  </StackLayout>
 </ContentPage>
