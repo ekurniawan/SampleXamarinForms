@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bab1.ImageCellListBinding" Title="Image Cell">
+  <ListView x:Name="listView" ItemsSource="{Binding ListItems}">
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <ImageCell ImageSource="{Binding Gambar}" 
+            Text="{Binding Title}" Detail="{Binding Description}" 
+                   DetailColor="Red" />
+      </DataTemplate>
+    </ListView.ItemTemplate>
+  </ListView>
+</ContentPage>
