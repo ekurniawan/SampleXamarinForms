@@ -22,11 +22,11 @@ namespace Bab1.ViewModels
         {
             lstItems = new List<ListItem>
             {
-                new ListItem { Price=200, Title="Xamarin Forms",
+                new ListItem { IsCheck=true, Price=200, Title="Xamarin Forms",
                     Description ="Tools untuk membuat aplikasi cross platform" },
-                new ListItem { Price=300, Title="Xamarin for Android",
+                new ListItem { IsCheck=false, Price=300, Title="Xamarin for Android",
                 Description="Framework untuk membangun aplikasi Android dengan CSharp"},
-                new ListItem { Price=400, Title="Xamarin for IOS",
+                new ListItem { IsCheck=true, Price=400, Title="Xamarin for IOS",
                 Description="Framework untuk membangun aplikasi IOS dengan CSharp"}
             };
         }

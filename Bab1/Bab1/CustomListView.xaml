@@ -14,6 +14,7 @@
               <Label HorizontalOptions="Start" FontAttributes="Bold"
                      Text="{Binding Description}" WidthRequest="200" />
             </StackLayout>
+            <Switch HorizontalOptions="End" IsToggled="{Binding IsCheck}" VerticalOptions="CenterAndExpand" />
             <Label HorizontalOptions="End" VerticalOptions="CenterAndExpand" 
                    FontSize="Medium" FontAttributes="Bold"
                    Text="{Binding Price}" />

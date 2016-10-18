@@ -12,5 +12,6 @@ namespace Bab1.Models
         public string Description { get; set; }
         public string Gambar { get; set; }
         public decimal Price { get; set; }
+        public bool IsCheck { get; set; }
     }
 }
