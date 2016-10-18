@@ -14,7 +14,7 @@ namespace Bab1
             InitializeComponent();
             //MainPage = new Bab1.MainPage();
 
-            MainPage = new SampleGridPage();
+            MainPage = new SamplePicker();
         }
 
         protected override void OnStart()

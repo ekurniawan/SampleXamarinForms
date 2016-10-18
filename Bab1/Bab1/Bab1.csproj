@@ -45,6 +45,9 @@
     <Compile Include="SampleGridPage.xaml.cs">
       <DependentUpon>SampleGridPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SamplePicker.xaml.cs">
+      <DependentUpon>SamplePicker.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MainPage.xaml">
@@ -76,6 +79,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="SampleGridPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SamplePicker.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
