@@ -38,16 +38,24 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BindingListString.xaml.cs">
+      <DependentUpon>BindingListString.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\ListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SampleBindingModel.xaml.cs">
+      <DependentUpon>SampleBindingModel.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SampleGridPage.xaml.cs">
       <DependentUpon>SampleGridPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="SamplePicker.xaml.cs">
       <DependentUpon>SamplePicker.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModels\TextCellViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MainPage.xaml">
@@ -85,6 +93,18 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="SamplePicker.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BindingListString.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SampleBindingModel.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
